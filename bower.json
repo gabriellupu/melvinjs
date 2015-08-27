@@ -1,0 +1,10 @@
+{
+  "name": "melvin.js",
+  "description": "The perfect framework for developing SPA websites",
+  "version": "0.0.2",
+  "dependencies": {
+    "backbone": "^1.2.x",
+    "backbone.marionette": "^2.4.x",
+    "underscore": "^1.8.x"
+  }
+}

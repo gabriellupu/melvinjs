@@ -5,6 +5,7 @@
   "dependencies": {
     "backbone": "^1.2.x",
     "backbone.marionette": "^2.4.x",
-    "underscore": "^1.8.x"
+    "underscore": "^1.8.x",
+    "jquery": "^2.1.x"
   }
 }

@@ -6,7 +6,7 @@ require.config({
         backbone: '../bower_components/backbone/backbone-min',
         marionette: '../bower_components/backbone.marionette/lib/backbone.marionette',
         melvin: '../bower_components/melvinjs/lib/melvinjs',
-        templates: '../tmp/templates'
+        templates: '../compiled/templates'
     },
     shim: {
         app: {

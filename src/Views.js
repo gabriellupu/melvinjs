@@ -1,4 +1,5 @@
-var ItemView = Melvin.ItemView = Melvin.View.extend(Marionette.ItemView.prototype);
-var CollectionView = Melvin.CollectionView = Melvin.View.extend(Marionette.CollectionView.prototype);
-var CompositeView = Melvin.CompositeView = Melvin.CollectionView.extend(Marionette.CompositeView.prototype);
-var LayoutView = Melvin.LayoutView = Melvin.ItemView.extend(Marionette.LayoutView.prototype);
+_.extend(Marionette.View.prototype, Melvin.View.prototype);
+var ItemView = Melvin.ItemView = Marionette.ItemView;
+var CollectionView = Melvin.CollectionView = Marionette.CollectionView;
+var CompositeView = Melvin.CompositeView = Marionette.CompositeView;
+var LayoutView = Melvin.LayoutView = Marionette.LayoutView;

@@ -1,5 +1,5 @@
 var Renderer = Melvin.Renderer = {
-    render: function(template, data) {
+    render: function(template, data, view) {
         if (!template) {
             throw new Marionette.Error({
                 name: 'TemplateNotFoundError',
@@ -8,10 +8,8 @@ var Renderer = Melvin.Renderer = {
         }
 
         var templateFunc = _.isFunction(template) ? template : window.JST[template];
-
-        return templateFunc({
-            model: data
-        });
+        // TODO data already contains the template helpers so they are duplicated here
+        return templateFunc(_.extend({}, {model: data}, view.templateHelpers));
     }
 };
 

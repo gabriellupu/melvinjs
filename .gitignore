@@ -1,2 +1,10 @@
 bower_components
 node_modules
+.idea/.name
+.idea/jsLibraryMappings.xml
+.idea/melvinjs.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/libraries/melvinjs_node_modules.xml

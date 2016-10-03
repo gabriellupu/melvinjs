@@ -1,15 +1,18 @@
 /*jshint camelcase: false */
 require.config({
     paths: {
-        jquery: '../bower_components/jquery/dist/jquery.min',
-        underscore: '../bower_components/underscore/underscore-min',
-        backbone: '../bower_components/backbone/backbone-min',
-        marionette: '../bower_components/backbone.marionette/lib/backbone.marionette',
-        melvin: '../bower_components/melvinjs/lib/melvinjs',
-        bootstrap: '../bower_components/bootstrap/dist/js/bootstrap',
+        jquery: '/node_modules/jquery/dist/jquery.min',
+        underscore: '/node_modules/underscore/underscore-min',
+        backbone: '/node_modules/backbone/backbone-min',
+        marionette: '/node_modules/backbone.marionette/lib/backbone.marionette',
+        melvin: '/node_modules/melvinjs/lib/melvinjs',
+        bootstrap: '/node_modules/bootstrap/dist/js/bootstrap',
         templates: '../templates'
     },
     shim: {
+        bootstrap: {
+            deps: ['jquery']
+        },
         app: {
             deps: ['melvin', 'bootstrap', 'templates']
         }

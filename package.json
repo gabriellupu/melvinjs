@@ -5,6 +5,9 @@
   "author": "Gabriel Lupu <lupugabriel1@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "backbone.marionette": "3.0.x",
+    "requirejs": "~2.2.0",
+    "bootstrap": "3.3.x"
   },
   "devDependencies": {
     "bower": "^1.4.x",

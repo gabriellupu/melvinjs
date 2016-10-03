@@ -3,9 +3,7 @@
   "description": "The perfect framework for developing SPA websites",
   "version": "0.0.7",
   "dependencies": {
-    "backbone": "^1.2.x",
-    "backbone.marionette": "^2.4.x",
-    "underscore": "^1.8.x",
+    "backbone.marionette": "3.0.x",
     "requirejs": "~2.2.0"
   }
 }

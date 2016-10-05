@@ -4,6 +4,7 @@ require.config({
         jquery: '/node_modules/jquery/dist/jquery.min',
         underscore: '/node_modules/underscore/underscore-min',
         backbone: '/node_modules/backbone/backbone-min',
+        'backbone.radio': '/node_modules/backbone.radio/build/backbone.radio',
         marionette: '/node_modules/backbone.marionette/lib/backbone.marionette',
         melvin: '/node_modules/melvinjs/lib/melvinjs',
         bootstrap: '/node_modules/bootstrap/dist/js/bootstrap',
